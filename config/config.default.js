@@ -14,3 +14,9 @@ exports.view = {
     '.tpl': 'nunjucks',
   },
 };
+exports.robot = {
+  ua: [
+    /curl/i,
+    /Baidusoider/i,
+  ],
+};
